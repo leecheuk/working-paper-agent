@@ -1,0 +1,41 @@
+{
+  "name": "working-paper-agent",
+  "version": "0.1.0",
+  "description": "AI-powered CLI for accountants to generate M-1 working papers from trial balances.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leecheuk/working-paper-agent"
+  },
+  "author": "Jeff Lee <dev.cheuk.lee@gmail.com>",
+  "keywords": [
+    "accounting",
+    "AI",
+    "working papers",
+    "M-1",
+    "trial balance",
+    "automation",
+    "cli",
+    "gemini"
+  ],
+  "bin": {
+    "wpa": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.66",
+    "@langchain/google-genai": "^0.2.15",
+    "@langchain/langgraph": "^0.3.10",
+    "@langchain/openai": "^0.6.2",
+    "chalk": "^5.4.1",
+    "d3-dsv": "^2.0.0",
+    "papaparse": "^5.5.3",
+    "xlsx": "^0.18.5",
+    "yargs": "^18.0.0"
+  }
+}
