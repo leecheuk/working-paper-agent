@@ -1,6 +1,6 @@
 {
   "name": "working-paper-agent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI-powered CLI for accountants to generate M-1 working papers from trial balances.",
   "type": "module",
   "repository": {
